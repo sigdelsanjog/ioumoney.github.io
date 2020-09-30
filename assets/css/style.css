@@ -22,7 +22,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Krub", sans-serif;
 }
 
@@ -169,7 +174,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu .active > a,
+.nav-menu li:hover > a {
   color: #3b4ef8;
 }
 
@@ -207,7 +214,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #2d405f;
 }
 
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
+.nav-menu .drop-down ul a:hover,
+.nav-menu .drop-down ul .active > a,
+.nav-menu .drop-down ul li:hover > a {
   color: #3b4ef8;
 }
 
@@ -330,7 +339,9 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+.mobile-nav a:hover,
+.mobile-nav .active > a,
+.mobile-nav li:hover > a {
   color: #3b4ef8;
   text-decoration: none;
 }
@@ -483,7 +494,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 50px;
@@ -683,7 +694,8 @@ section {
   padding-bottom: 80px;
 }
 
-.services .section-title h2, .services .section-title p {
+.services .section-title h2,
+.services .section-title p {
   color: #fff;
 }
 
@@ -768,7 +780,8 @@ section {
   border-radius: 3px;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #3b4ef8;
 }
@@ -895,7 +908,8 @@ section {
   margin: 0;
 }
 
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
   color: white;
   font-size: 26px;
 }
@@ -918,7 +932,8 @@ section {
   margin: 0 auto 15px auto;
 }
 
-.testimonials .owl-nav, .testimonials .owl-dots {
+.testimonials .owl-nav,
+.testimonials .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
@@ -1017,7 +1032,12 @@ section {
 }
 
 .team .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(12, 17, 26, 0.9) 0%, rgba(20, 29, 43, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 17, 26, 0.9) 0%,
+    rgba(20, 29, 43, 0.8) 20%,
+    rgba(0, 212, 255, 0) 100%
+  );
   opacity: 1;
   transition: 0.4s;
 }
@@ -1033,9 +1053,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# download
 --------------------------------------------------------------*/
-.pricing .box {
+.download .box {
   padding: 20px;
   background: #fff;
   text-align: center;
@@ -1044,7 +1064,7 @@ section {
   overflow: hidden;
 }
 
-.pricing .box h3 {
+.download .box h3 {
   font-weight: 400;
   padding: 15px;
   font-size: 18px;
@@ -1053,7 +1073,7 @@ section {
   color: #2d405f;
 }
 
-.pricing .box h4 {
+.download .box h4 {
   font-size: 42px;
   color: #3b4ef8;
   font-weight: 500;
@@ -1061,19 +1081,19 @@ section {
   margin-bottom: 20px;
 }
 
-.pricing .box h4 sup {
+.download .box h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
 
-.pricing .box h4 span {
+.download .box h4 span {
   color: #bababa;
   font-size: 16px;
   font-weight: 300;
 }
 
-.pricing .box ul {
+.download .box ul {
   padding: 0;
   list-style: none;
   color: #2d405f;
@@ -1082,27 +1102,27 @@ section {
   font-size: 14px;
 }
 
-.pricing .box ul li {
+.download .box ul li {
   padding-bottom: 16px;
 }
 
-.pricing .box ul i {
+.download .box ul i {
   color: #3b4ef8;
   font-size: 18px;
   padding-right: 4px;
 }
 
-.pricing .box ul .na {
+.download .box ul .na {
   color: #ccc;
   text-decoration: line-through;
 }
 
-.pricing .box .btn-wrap {
+.download .box .btn-wrap {
   padding: 15px;
   text-align: center;
 }
 
-.pricing .box .btn-buy {
+.download .box .btn-buy {
   background: #eceefe;
   color: #3b4ef8;
   display: inline-block;
@@ -1116,26 +1136,30 @@ section {
   transition: 0.3s;
 }
 
-.pricing .box .btn-buy:hover {
+.download .box .btn-buy:hover {
   background: #3b4ef8;
   color: #fff;
 }
 
-.pricing .featured {
+.download .featured {
   background: #466393;
   box-shadow: none;
 }
 
-.pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na {
+.download .featured h3,
+.download .featured h4,
+.download .featured h4 span,
+.download .featured ul,
+.download .featured ul .na {
   color: #fff;
 }
 
-.pricing .featured .btn-buy {
+.download .featured .btn-buy {
   background: rgba(255, 255, 255, 0.1);
   color: #fff;
 }
 
-.pricing .featured .btn-buy:hover {
+.download .featured .btn-buy:hover {
   background: #fff;
   color: #4e6fa4;
 }
@@ -1279,13 +1303,15 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
   border-color: #8ea5ca;
 }
 
@@ -1363,7 +1389,8 @@ section {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-carousel .owl-nav, .portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-nav,
+.portfolio-details .portfolio-details-carousel .owl-dots {
   margin-top: 5px;
   text-align: center;
 }
