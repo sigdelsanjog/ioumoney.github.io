@@ -446,8 +446,19 @@ h6 {
 }
 
 #hero .hero-img {
-  max-width: 60%;
-  margin-top: 40px;
+  max-width: 85%;
+  margin-top: 30px;
+}
+
+#hero .hero-text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.hero-text h3 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #222831;
 }
 
 @media (max-width: 992px) {
@@ -461,8 +472,19 @@ h6 {
     line-height: 24px;
   }
   #hero .hero-img {
-    max-width: 90%;
+    max-width: 100%;
   }
+
+  #hero .hero-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text h3 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
 }
 
 /*--------------------------------------------------------------
@@ -1066,8 +1088,23 @@ section {
 /*--------------------------------------------------------------
 # download
 --------------------------------------------------------------*/
+
+#hero .hero-download {
+    position: relative;
+}
+
+.hero-download .hero-download-box {
+    height: 70px;
+    position: relative;
+}
+
+.hero-download-box img {
+  height: 100%;
+  width: 150px;
+}
+
 .download .box {
-  padding: 20px;
+  padding: 40px;
   background: #fff;
   text-align: center;
   border-radius: 8px;
@@ -1174,6 +1211,19 @@ section {
   background: #F3F3F3;
   color: #53415E;
   border: 2px solid #53415E;
+}
+
+
+@media (max-width: 768px) {
+  .hero-download .hero-download-box {
+    height: 30px;
+    position: relative;
+  }
+
+  .hero-download-box img {
+    height: 100%;
+    width: 75px;
+  }
 }
 
 /*--------------------------------------------------------------
