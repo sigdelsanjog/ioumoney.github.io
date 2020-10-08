@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72992aa-d363-4647-9165-367857a3e8c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/appstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/appstore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/transaction-detail.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/features-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hero-img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/create-transaction-amount-filled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/create-transaction-amount.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/create-transaction-date-picker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/create-transaction-manual-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/create-transaction-select-user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/create-transaction-summary.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/credit_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/credits.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/credits.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/friend_list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/login_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/my_profile.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/my_profile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/portfolio1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/search_users.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/settings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/side-menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/signup_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/user_profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ios/user_transaction_history.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/user_transaction_history.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

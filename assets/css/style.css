@@ -409,7 +409,7 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 70px;
+  padding-top: 15px;
 }
 
 #hero h1 {
@@ -445,14 +445,21 @@ h6 {
   background: #0a22f6;
 }
 
-#hero .hero-img {
+#hero .hero-img-full {
+  max-width: 100%;
+  margin-top: 15px;
+  display: block;
+}
+
+#hero .hero-img-mobile {
   max-width: 85%;
-  margin-top: 30px;
+  margin-top: -10%;
+  display: none;
 }
 
 #hero .hero-text {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .hero-text h3 {
@@ -471,8 +478,13 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
-  #hero .hero-img {
-    max-width: 100%;
+
+  #hero .hero-img-full {
+    display: none
+  }
+
+  #hero .hero-img-mobile {
+    display: inline;
   }
 
   #hero .hero-text {
