@@ -518,6 +518,7 @@ section {
   padding-bottom: 30px;
 }
 
+
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -528,6 +529,26 @@ section {
 }
 
 .section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #f3f3f3;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title h2-invert {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #222831;
+}
+
+.section-title h2-invert::after {
   content: '';
   position: absolute;
   display: block;
@@ -646,13 +667,33 @@ section {
 /*--------------------------------------------------------------
 # Features
 --------------------------------------------------------------*/
-.features .content + .content {
-  margin-top: 30px;
+.white-bg-font-color {
+    color: #222831;
 }
 
-.features .content h3 {
-  font-weight: 600;
-  font-size: 26px;
+.features .section-title {
+    margin-bottom: 3%;
+}
+
+.features .content {
+    margin-bottom: 5%;
+}
+
+.features .content .col-10 h3 {
+   font-size: 24px;
+   font-weight: 600;
+   color: #53415E;
+   text-align: left;
+}
+
+.features .content .col-10 p {
+   font-size: 20px;
+   color: #595959;
+   text-align: left;
+}
+
+.features .content + .content {
+  margin-top: 30px;
 }
 
 .features .content ul {
@@ -676,15 +717,30 @@ section {
 
 .features .content .small-icon {
   text-align: center;
+  position: relative;
 }
-.features .content .small-icon i {
-  font-size: xx-large;
+
+.features .content .small-icon img {
+  /* font-size: xx-large; */
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  right: 25%;
+  top: 5%;
 }
 
 @media (max-width: 768px) {
   .features .content + .content {
     margin-top: 0px;
   }
+
+.features .content .col-10 h3 {
+   font-size: 21px;
+}
+
+.features .content .col-10 p {
+   font-size: 18px;
+}
 
   .features .content .small-icon {
     display: block;
@@ -695,8 +751,9 @@ section {
     margin-bottom: 20px;
   }
 
-  .features .content .small-icon i {
-    font-size: x-large;
+  .features .content .small-icon img {
+    height: 50px;
+    width: 50px;
   }
 }
 
@@ -705,14 +762,23 @@ section {
     margin-top: 50px;
   } */
 
+  .features .content .col-10 h3 {
+       font-size: 18px;
+   }
+
+  .features .content .col-10 p {
+    font-size: 14px;
+  }
+
   .features .content .feature-sub-section {
     margin-top: 50px;
     margin-left: 5px;
     margin-right: 5px;
   }
 
-  .features .content .small-icon i {
-    font-size: large;
+  .features .content .small-icon img {
+    height: 40px;
+    width: 40px;
   }
 }
 
@@ -1560,6 +1626,7 @@ section {
   padding: 60px 0 30px 0;
   background: #f3f3f3;
   color: #222831;
+  height: 110px;
 }
 
 #footer .footer-top .footer-contact {
