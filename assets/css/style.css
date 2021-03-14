@@ -446,13 +446,13 @@ h6 {
 }
 
 #hero .hero-img-full {
-  max-width: 100%;
+  max-width: 90%;
   margin-top: 15px;
   display: block;
 }
 
 #hero .hero-img-mobile {
-  max-width: 85%;
+  max-width: 80%;
   margin-top: -10%;
   display: none;
 }
